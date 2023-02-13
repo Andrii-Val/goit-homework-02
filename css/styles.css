@@ -1,6 +1,36 @@
- h1{
-    color: red;
-}
-h2{
-    color: aqua;
-}
+  /* колір силок   #2E2F42 */
+  /* колір номера#434455 */
+  /* колір кнопок #4D5AE5 */
+ body{
+    color: #434455;
+ }
+  .logo{
+    color:#2E2F42 ;
+  }
+  span{
+    color: #4D5AE5;
+    
+  }
+  .list{
+    list-style: none;
+  }
+  .site-nav .link{
+    color:#2E2F42 ;
+  }
+  .site-nav .link:hover,
+  .site-nav .link:focus {
+    color:#4D5AE5 ;
+  }
+  .site-addres a{
+color: #434455;
+  }
+  .site-addres .link:hover,
+  .site-addres .link:focus {
+    color:#4D5AE5 ;
+  }
+  .section-title{
+    color:#2E2F42 ;
+  }
+  .feature-list .title{
+    color: #2E2F42;
+  }
