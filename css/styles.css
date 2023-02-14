@@ -11,6 +11,7 @@
         --primary-white-color: #F4F4FD;
         
   }
+  /* загальне */
  body{
   background-color: var(--primary-white-color);
   font-family: Roboto, sans-serif;
@@ -20,7 +21,7 @@
       line-height: 1.5;
       letter-spacing: 0.02em;
     }
- 
+ /* логотип */
   .logo{
     color:var(--title-text-color) ;
     font-family: Raleway, cursive;
@@ -41,11 +42,8 @@
     
 
   }
-  .work-list .column{
-    text-decoration: none;
-
-  }
-
+ 
+/* навігація */
   .site-nav .link{
     color:var(--title-text-color) ;
     font-weight: 500;
@@ -57,6 +55,7 @@
   .site-nav .link:focus {
     color:var(--accent-color) ;
   }
+  /* адреси */
   .site-addres a{
 color: var(--primary-text-color);
 font-weight: 400;
@@ -69,11 +68,13 @@ font-weight: 400;
     color:var(--accent-color) ;
     
   }
+  /* кнопки */
   .items-title:hover,
   .items-title:focus{
     color: var(--primary-fon-color);
     background-color: var(--accent-color);
   }
+  /* кнопка */
   .button{ 
     background-color: var(--accent-color);
     color: var(--primary-white-color);
@@ -83,6 +84,7 @@ font-weight: 400;
       letter-spacing: 0.04em;
 
   }
+  /* секції */
   .section-title{
     color: var(--title-text-color) ;
     font-weight: 700;
@@ -91,6 +93,7 @@ font-weight: 400;
 
       text-align: center;
   }
+  /* списки */
   .feature-list .title,
     .work-list .title{
     color:  var(--title-text-color);
@@ -99,5 +102,14 @@ font-weight: 400;
       line-height: 1.2px;
       text-decoration: none;
   }
+  /* вікна силок */
+    .work-list .column {
+      text-decoration: none;
+    }
+.slogan{
+    color: #434455;
+    
+  }
+}
  
   
