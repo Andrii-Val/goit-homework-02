@@ -75,6 +75,10 @@ color: var(--primary-text-color);
       line-height: 1.07;
   }
   /* кнопки */
+    .items-title{
+      background-color: var(--primary-white-color);
+      color: var(--accent-color);
+    }
   .items-title:hover,
   .items-title:focus{
     color: var(--primary-fon-color);
@@ -128,6 +132,8 @@ footer a {
 color: #F4F4FD;
 text-decoration: none;
 }
-
+ .hidder{
+  display: none;
+ }
  
   
