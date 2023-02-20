@@ -101,17 +101,29 @@ color: var(--primary-text-color);
       border-radius: 4px;
 
   }
+   
+  .section{
+    
+    padding-top: 120px;
+      padding-bottom: 120px;
+      margin: 0px;
+  }
+  .section.work{
+    padding-top: 0px;
+  }
   /* секції */
     .section-comands{
       background-color: var(--primary-white-color);
     }
   .section-title{
+    margin-top: 0px;
+    margin-bottom: 72px;
     color: var(--title-text-color) ;
     font-weight: 700;
       font-size: 36px;
       line-height: 1.1;
-
       text-align: center;
+    
   }
   /* списки */
   .feature-list .title,
@@ -120,9 +132,23 @@ color: var(--primary-text-color);
     font-weight: 500;
       font-size: 20px;
       line-height: 1.2;
-     
       text-decoration: none;
+      margin-top: 0px;
+      margin-bottom: 8px;
   }
+    .work-list .title{
+      margin-top: 32px;
+    }
+    .feature-list,
+    .work-list{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .feature-list  p,
+     .work-list p{
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
   /* вікна силок */
     .work-list .column {
       text-decoration: none;
