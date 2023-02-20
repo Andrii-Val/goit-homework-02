@@ -9,11 +9,9 @@
         --accent-color: #4D5AE5;
         --primary-fon-color:#FFFFFF;
         --primary-white-color: #F4F4FD;
-        
   }
   /* загальне */
- body{
-  
+ body{ 
   font-family: Roboto, sans-serif;
     color:  #434455;
      font-weight: 400;
@@ -33,16 +31,12 @@
   }
   span{
     color: var(--accent-color);
-    
   }
   .list,
   .items{
     list-style: none;
     text-decoration: none;
-    
-
   }
- 
 /* навігація */
   .site-nav .link{
     color:var(--title-text-color) ;
@@ -62,11 +56,10 @@ color: var(--primary-text-color);
   .site-addres .link:hover,
   .site-addres .link:focus {
     color:var(--accent-color) ;
-    
   }
+  /* герой */
     .hero{
-      background-color: var(--title-text-color)
-      ;
+      background-color: var(--title-text-color);
     }
   .hero-title{
     color: var(--primary-fon-color);
@@ -74,7 +67,7 @@ color: var(--primary-text-color);
       font-size: 56px;
       line-height: 1.07;
   }
-  /* кнопки */
+  /* кнопки портфоліо */
     .items-title{
       background-color: var(--primary-white-color);
       color: var(--accent-color);
@@ -88,7 +81,7 @@ color: var(--primary-text-color);
     background-color: var(--accent-color);
     border: 1px solid var(--accent-color);
   }
-  /* кнопка */
+  /* кнопка  студія*/
   .button{ 
     background-color: var(--accent-color);
     color: var(--primary-white-color);
@@ -99,11 +92,9 @@ color: var(--primary-text-color);
       line-height: 1.5;
       letter-spacing: 0.04em;
       border-radius: 4px;
-
   }
-   
+  /* секції */
   .section{
-    
     padding-top: 120px;
       padding-bottom: 120px;
       margin: 0px;
@@ -111,7 +102,7 @@ color: var(--primary-text-color);
   .section.work{
     padding-top: 0px;
   }
-  /* секції */
+  
     .section-comands{
       background-color: var(--primary-white-color);
     }
@@ -123,7 +114,6 @@ color: var(--primary-text-color);
       font-size: 36px;
       line-height: 1.1;
       text-align: center;
-    
   }
   /* списки */
   .feature-list .title,
@@ -143,19 +133,15 @@ color: var(--primary-text-color);
     .work-list{
       margin-top: 0px;
       margin-bottom: 0px;
-    }
-    .feature-list  p,
-     .work-list p{
-      margin-top: 0px;
-      margin-bottom: 0px;
-    }
+    } 
   /* вікна силок */
     .work-list .column {
       text-decoration: none;
     }
 .slogan{
     color: #434455;
-    
+    margin-top: 0px;
+      margin-bottom: 32px;
   }
   /* footer */
 footer{
