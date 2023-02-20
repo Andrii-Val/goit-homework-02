@@ -78,21 +78,27 @@ color: var(--primary-text-color);
     .items-title{
       background-color: var(--primary-white-color);
       color: var(--accent-color);
+      cursor: pointer;
+      border: 1px solid #E7E9FC;
+        border-radius: 4px;
     }
   .items-title:hover,
   .items-title:focus{
     color: var(--primary-fon-color);
     background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
   }
   /* кнопка */
   .button{ 
     background-color: var(--accent-color);
     color: var(--primary-white-color);
-    font-family: inherit; cursor: pointer;
+    font-family: inherit; 
+    cursor: pointer;
     font-weight: 500;
       font-size: 16px;
       line-height: 1.5;
       letter-spacing: 0.04em;
+      border-radius: 4px;
 
   }
   /* секції */
@@ -113,7 +119,8 @@ color: var(--primary-text-color);
     color:  var(--title-text-color);
     font-weight: 500;
       font-size: 20px;
-      line-height: 1.2px;
+      line-height: 1.2;
+     
       text-decoration: none;
   }
   /* вікна силок */
@@ -124,14 +131,20 @@ color: var(--primary-text-color);
     color: #434455;
     
   }
+  /* footer */
 footer{
   background-color: var(--title-text-color);
   color: #E7E9FC;
 }
-footer a {
-color: #F4F4FD;
-text-decoration: none;
+.logo-footer{
+  color: var(--primary-white-color);
+  text-decoration: none;
+font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
 }
+ /* скритий заголовок */
  .hidder{
   display: none;
  }
