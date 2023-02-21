@@ -19,6 +19,11 @@
       line-height: 1.5;
       letter-spacing: 0.02em;
     }
+    .main-nav,
+    header{
+      display: flex;
+      align-items: center;
+    }
  /* логотип */
   .logo{
     color:var(--title-text-color) ;
@@ -38,7 +43,21 @@
     text-decoration: none;
   }
 /* навігація */
+ .site-nav,
+ .site-addres{
+  display: flex;
+  margin-bottom: 0px;
+  margin-top: 0px;
+ }
+ .site-nav .item + .item,
+ .site-addres .item + .item{
+  margin-left: 40px;
+  border: 2px solid red;
+ }
   .site-nav .link{
+    padding-top: 24px;
+      padding-bottom: 24px;
+    display: block;
     color:var(--title-text-color) ;
     font-weight: 500;
       text-decoration: none;
@@ -48,7 +67,13 @@
     color:var(--accent-color) ;
   }
   /* адреси */
+  
+  
   .site-addres .link {
+    display: block;
+    padding-top: 24px;
+   padding-bottom: 24px;
+
 color: var(--primary-text-color);
   text-decoration: none;
   font-style: normal;
