@@ -19,12 +19,25 @@
       line-height: 1.5;
       letter-spacing: 0.02em;
     }
+    /* утиліти */
+    .list,
+  .items,
+  .title{
+    list-style: none;
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+  }
     .main-nav,
     header{
       display: flex;
       align-items: center;
     }
     .container{
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 20px;
+      padding-right: 20px;
       width: 1128px;
     }
  /* логотип */
@@ -40,12 +53,11 @@
   span{
     color: var(--accent-color);
   }
-  .list,
-  .items{
-    list-style: none;
-    text-decoration: none;
-  }
+  
 /* навігація */
+ .site-nav{
+  margin-left: 55px;
+ }
  .site-nav,
  .site-addres{
   display: flex;
@@ -70,7 +82,9 @@
     color:var(--accent-color) ;
   }
   /* адреси */
-  
+    .main-address{
+      margin-left: auto;
+    }
   
   .site-addres .link {
     display: block;
@@ -130,6 +144,12 @@ color: var(--primary-text-color);
   .section.work{
     padding-top: 0px;
   }
+    .site-work{
+      display: flex;
+    }
+   .site-work .item+.item{
+     margin-left: 24px;
+        }
   
     .section-comands{
       background-color: var(--primary-white-color);
@@ -144,6 +164,7 @@ color: var(--primary-text-color);
       text-align: center;
   }
   /* списки */
+
   .feature-list .title,
     .work-list .title{
     color:  var(--title-text-color);
@@ -154,6 +175,17 @@ color: var(--primary-text-color);
       margin-top: 0px;
       margin-bottom: 8px;
   }
+  /* сексія переваг */
+    .feature-list{
+      display: flex;
+    }
+  /* секція команди */
+     .work-list {
+      display: flex;
+     }
+     .work-list .item + .item{
+      margin-left: 24px;
+     }
     .work-list .title{
       margin-top: 32px;
     }
