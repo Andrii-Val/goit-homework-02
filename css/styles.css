@@ -179,6 +179,9 @@ color: var(--primary-text-color);
     .feature-list{
       display: flex;
     }
+      .feature-list .item + .item{
+        margin-left: 24px;
+      }
   /* секція команди */
      .work-list {
       display: flex;
