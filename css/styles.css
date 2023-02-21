@@ -24,6 +24,9 @@
       display: flex;
       align-items: center;
     }
+    .container{
+      width: 1128px;
+    }
  /* логотип */
   .logo{
     color:var(--title-text-color) ;
